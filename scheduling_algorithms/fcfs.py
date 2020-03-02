@@ -48,6 +48,7 @@ def find_avg_time(processes,n,burst_time):
           .format(average_waiting_time,average_turn_around_time))
 
 if __name__=="__main__":
+    print("First come first served cpu scheduling")
     processes=[1,2,3]
     n=len(processes)
     burst_time=[10,5,8]
